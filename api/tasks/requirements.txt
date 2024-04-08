@@ -1,0 +1,16 @@
+celery
+flower
+redis
+watchdog
+requests
+scikit-learn
+fastapi[all]
+sqlalchemy
+asyncpg
+bcrypt
+pyjwt
+matplotlib
+pandas
+pytest
+black
+fastapi-cache2

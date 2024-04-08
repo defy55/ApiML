@@ -1,0 +1,28 @@
+﻿MODE=TEST
+
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=postgres
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+
+TEST_POSTGRES_DB=postgres_test
+TEST_POSTGRES_USER=username
+TEST_POSTGRES_PASSWORD=password
+TEST_POSTGRES_HOST=postgres
+TEST_POSTGRES_PORT=5432
+
+PGADMIN_DEFAULT_EMAIL=admin@admin.com
+PGADMIN_DEFAULT_PASSWORD=root^655gi
+POSTGRES_EXTENSIONS=pg_trgm
+
+CELERY_BROKER_URL=redis://redis:6379/0
+CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+SECRET_KEY=sercretKey
+ALGORITHM=RS256
+# ALGORITHM=HS256
+
+CORS_HEADERS=["Content-Type", "Set-Cookie", "Access-Control-Allow-Headers", "Access-Control-Allow-Origin", "Authorization"]
+CORS_ORIGINS=["http://localhost:8000", "http://127.0.0.1:8000"]
+CORS_METHODS=["GET", "POST", "OPTIONS", "DELETE", "PATCH", "PUT"]
